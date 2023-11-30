@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+/* .form{
+
+} */
+.chatroom-container{
+    display: none;
+    height: 95vh;
+    width: 90%;
+    border: 1px solid black;
+}
+.chatroom-header{
+    background-color: black;
+    color: white;
+    padding: 0.6rem;
+
+}
+#message-conatiner{
+  display: flex;
+  flex-direction: column;
+  height: 87.5vh;
+  overflow-y: scroll;
+}
+.message{
+    background-color: #e1e1e1;
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.sent{
+    align-self: flex-end;
+}
